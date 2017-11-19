@@ -7,7 +7,12 @@ public class Counting
     public static void count(int a) {
         try {
             for (int i = 0; i < a; i++) {
-                System.out.println(a);
+                if (a % 3) {
+                    System.out.println("fizz")
+                }
+                else {
+                    System.out.println(a);
+                }
             }
         }
         catch (IOException e) {
