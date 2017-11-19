@@ -19,4 +19,20 @@ public class Counting
             System.out.println("There is an error somewhere.")
         }
     }
+
+    public static void buzz(int a) {
+        try {
+            for (int i = 0; i < a; i++) {
+                if (a % 4) {
+                    System.out.println("buzz")
+                }
+                else {
+                    System.out.println(a);
+                }
+            }
+        }
+        catch (IOException e) {
+            System.out.println("There is an error somewhere.")
+        }
+    }
 }
